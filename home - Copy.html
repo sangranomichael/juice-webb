@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINOY JUICE</title>
+    <link rel="stylesheet" href="C:\Users\63995\style.css">
+    <style>
+        body {
+           
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            color: black;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: relative;
+            margin-top: 30px;
+        }
+
+        .hero img {
+            max-width: 10%;
+            height: auto;
+            margin-top: -40px;
+            margin-right: 300px;
+        }
+
+        .title {
+            margin: 20px 0;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+        }
+
+        section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .navbar2 {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <img src="c:\Users\user\Downloads\BackgroundRemoved.png" class="logo" alt="Logo">
+        </div>
+        <h1 class="title">JUVER JUICE DYING</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About Me</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Homepage</h2>
+        <p>This is the Juice.</p>
+        <img src="c:\Users\user\Downloads\tang1.JPG" alt="" width="100">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I am Den Andrew M. Ylaya, I am the developer of this website. Hit me up.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you need clarification, please contact:</p>
+        <br>
+        <address>
+            <b>Email:</b> dema.ylaya.coc@phinmaed.com<br> <br>
+            <b>Phone:</b> 09771528655<br> <br>
+            <b>Address:</b> Macanhan Oro Zena, Carinugan, Balulang
+        </address>
+    </section>
+
+    <footer>
+        <div class="navbar2">
+            <p>&copy; JUVER JUICE</p>
+            <p>I can't do this anymore</p>
+            <p>HELP</p>
+        </div>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+
+            const selectedSection = document.getElementById(sectionId);
+            selectedSection.style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>

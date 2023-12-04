@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.banner{
+    width: 100%;
+    height: 1500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(DSC_0499.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85;
+    margin-left: 1080px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 30px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:"";
+    height: 3px;
+    width: 0;
+    background:#e5d161;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #f1ebeb;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #e2d970;
+}
+.adobo {
+    margin-left: 450px;
+    margin-right: 50px;
+    margin-top: 80px;
+    display: block;
+    margin-bottom: 2px;
+}
+.ingredients{
+    
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    text-align:left;
+    color: #F5F5DC;
+    margin-left: 140px;
+    font-style: oblique;
+   
+}
+.ingredients h1{
+    
+
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+}
+.ing-list{
+    
+    width: 50%;
+    position: absolute;
+    top: 90%;
+    text-align:left;
+    color: #F5F5DC;
+    margin-left: 150px;
+    font-style: oblique;
+}
+.ing-list ol li{
+    
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ftr{
+    
+    width: 50%;
+    position: absolute;
+    top: 150%;
+    text-align:left;
+    color: #F5F5DC;
+    margin-left: 150px;
+    font-style: oblique; 
+}
+.ftr ol li{
+    
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.ftr ol p li{
+    
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.instructions{
+    
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    text-align:left;
+    color: #F5F5DC;
+    margin-left: 650px;
+    font-style: oblique;
+}
+.instructions h1{
+    
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.ins{
+    width: 50%;
+    position: absolute;
+    top: 90%;
+    text-align:left;
+    color: #F5F5DC;
+    margin-left: 670px;
+    font-style: oblique;
+}
+.ins dt{
+    
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+.ins dl dd{
+    
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+    color: navajowhite;
+    margin-top: 50%;
+}
+.navbar2{
+    width: 85;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: -40px;
+}
+.navbar2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative;
+    margin-top: -25px;
+    margin-right: 30px;
+    align-items: center;
+    font-size: smaller;
+}
+.navbar2 ul li a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+}
+.navbar2 ul li::after{
+    content:"";
+    height: 3px;
+    width: 0;
+    background:#b49f25;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+transition: 0.5s;
+}
+.navbar2 ul li:hover:after{
+    width: 100%;
+}
+.logo2{
+    display: block;
+    margin-left: -500px;
+    margin-right: 410px;
+    width: 130px;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.content2{
+    margin-left: 560px;
+    margin-bottom: 20px;
+}
+.profile{
+    width: 85;
+    margin-left: -40%;
+    justify-content: space-between;
+    margin-top: -80px;
+    margin-bottom: 10px;
+}
+.profile4{
+    margin-left: 570px;
+}
+.profile5{
+    margin-left: 680px;
+    margin-top: -80px;
+}
+.profile6{
+    margin-left: 780px;
+    margin-top: -80px;
+}
+.content3{
+    margin-left: 1138px;
+    margin-bottom: 50px;
+    font-size: smaller;
+    margin-top: -15px;
+
+}
